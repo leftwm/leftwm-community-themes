@@ -1,0 +1,26 @@
+#!/bin/bash
+
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+SCRIPTPATH/down
+
+#boot compton if it exists
+if [ -x "$(command -v compton)" ]; then
+  compton &> /dev/null & 
+fi
+
+#set background
+if [ -x "$(command -v xwinwrap)" ]; then
+  xwinwrap -ov -g 1920x1080+0+0 -- mpv -wid WID $SCRIPTPATH/background.mp4 --no-osc --no-osd-bar --loop-file --player-operation-mode=cplayer --no-audio --panscan=1.0 --no-input-default-bindings &
+fi
+
+echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
+
+#boot polybar based on the number of monitors found
+if [ -x "$(command -v polybar)" ]; then
+  pkill polybar
+  monitors="$(polybar -m | sed s/:.*// | tac)"
+  while read -r display; do
+    MONITOR=$display polybar -c "$SCRIPTPATH/polybar.config" mainbar &> /dev/null &
+  done <<< "$monitors"
+  exit 0
+fi

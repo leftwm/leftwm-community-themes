@@ -1,0 +1,40 @@
+#!/bin/bash
+export SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
+$SCRIPTPATH/down
+
+#boot compton if it exists
+if [ -x "$(command -v compton)" ]; then
+  compton &> /dev/null & 
+fi
+
+#set the theme.toml config
+echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
+
+
+#set background
+if [ -x "$(command -v feh)" ]; then
+  feh --bg-scale $SCRIPTPATH/background.jpg
+fi
+
+#find the primary monitor
+monitor="$(polybar -m | grep +0+0 | sed s/:.*// | tac)"
+
+#TOP BAR
+leftwm-state -t $SCRIPTPATH/sizes_top.liquid -q | while read -r width x y
+do 
+  monitor=$monitor offsetx=$x offsety=$y width=$width polybar -c $SCRIPTPATH/polybar_top.config topbar &> /dev/null &
+done
+
+#LEFT BAR
+conky -c $SCRIPTPATH/conky.config &> /dev/null
+
+#BOTTOM BARS
+index=0
+leftwm-state -q -n -t $SCRIPTPATH/sizes.liquid | sed -r '/^\s*$/d' | while read -r width x y
+do 
+  barname="mainbar$index"
+  monitor=$monitor offsetx=$x offsety=$y width=$width polybar -c $SCRIPTPATH/polybar_bottom.config $barname &> /dev/null &
+  let index=index+1
+done
+

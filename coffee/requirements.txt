@@ -1,0 +1,4 @@
+polybar
+compton
+xwinwrap
+mpv
