@@ -1,0 +1,3 @@
+[submodule "leftwm-soothe"]
+	path = leftwm-soothe
+	url = https://github.com/b4skyx/leftwm-soothe.git
