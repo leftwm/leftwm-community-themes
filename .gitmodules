@@ -1,3 +1,16 @@
-[submodule "leftwm-soothe"]
-	path = leftwm-soothe
+[submodule "soothe"]
+	path = soothe
 	url = https://github.com/b4skyx/leftwm-soothe.git
+	branch = master
+[submodule "windowsxp"]
+	path = windowsxp
+	url = https://github.com/lex148/leftwm-windowsxp.git
+	branch = master
+[submodule "tng"]
+	path = tng
+	url = https://github.com/lex148/leftwm-tng.git
+	branch = master
+[submodule "coffee"]
+	path = coffee
+	url = https://github.com/lex148/leftwm-coffee.git
+	branch = master
