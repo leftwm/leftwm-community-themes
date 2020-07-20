@@ -14,3 +14,6 @@
 	path = coffee
 	url = https://github.com/lex148/leftwm-coffee.git
 	branch = master
+[submodule "orangeforest"]
+	path = orangeforest
+	url = https://github.com/PVautour/leftwm-theme-orange-forest.git
