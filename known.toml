@@ -1,0 +1,34 @@
+[[theme]]
+name = "Orange Forest"
+repository = "https://github.com/PVautour/leftwm-theme-orange-forest/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
+
+[[theme]]
+name = "Coffee"
+repository = "https://github.com/lex148/leftwm-coffee/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
+
+[[theme]]
+name = "Soothe"
+repository = "https://github.com/b4skyx/leftwm-soothe/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
+
+[[theme]]
+name = "TNG"
+repository = "https://github.com/lex148/leftwm-tng/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
+
+[[theme]]
+name = "Windows XP"
+repository = "https://github.com/lex148/leftwm-windowsxp/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
