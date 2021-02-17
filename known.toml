@@ -32,3 +32,10 @@ repository = "https://github.com/lex148/leftwm-windowsxp/"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
+
+[[theme]]
+name = "Dracula Rounded"
+repository = "https://github.com/AethanFoot/leftwm-theme-dracula-rounded/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
