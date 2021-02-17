@@ -17,3 +17,6 @@
 [submodule "orangeforest"]
 	path = orangeforest
 	url = https://github.com/PVautour/leftwm-theme-orange-forest.git
+[submodule "dracula-rounded"]
+	path = dracula-rounded
+	url = https://github.com/AethanFoot/leftwm-theme-dracula-rounded
