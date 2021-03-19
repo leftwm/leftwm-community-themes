@@ -18,8 +18,25 @@ Screenshots of the themes currently available:
 
 ![Coffee](screenshots/Coffee.jpg)
 
+### Dracula
 
+![Dracula](screenshots/dracula.png)
 
+### Orange
+
+![Orange](screenshots/orange.png)
+
+### Soothe
+
+![Soothe](screenshots/soothe.png)
+
+### TNG
+
+![TNG](screenshots/tng.jpg)
+
+### Windows XP 
+
+![Windows XP](screenshots/xp.png)
 
 ## LICENSE
 This project is licensed under the BSD 3-Clause License.
