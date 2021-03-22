@@ -10,6 +10,34 @@ If you can't find what you are looking for please ask We want to help.
 
 In addition to the standard guidelines for themes we ask that you also include a screenshot so others can see your hard work.
 
+## Themes
+
+Screenshots of the themes currently available:
+
+### Coffee
+
+![Coffee](screenshots/Coffee.jpg)
+
+### Dracula
+
+![Dracula](screenshots/dracula.png)
+
+### Orange
+
+![Orange](screenshots/orange.png)
+
+### Soothe
+
+![Soothe](screenshots/soothe.png)
+
+### TNG
+
+![TNG](screenshots/tng.jpg)
+
+### Windows XP 
+
+![Windows XP](screenshots/xp.png)
+
 ## LICENSE
 This project is licensed under the BSD 3-Clause License.
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in LeftWM by you, shall be licensed as BSD 3-Clause License, without any additional terms or conditions.
