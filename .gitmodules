@@ -20,3 +20,6 @@
 [submodule "dracula-rounded"]
 	path = dracula-rounded
 	url = https://github.com/AethanFoot/leftwm-theme-dracula-rounded
+[submodule "forest"]
+	path = forest
+	url = https://github.com/lex148/forest.git
