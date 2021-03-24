@@ -39,3 +39,10 @@ repository = "https://github.com/AethanFoot/leftwm-theme-dracula-rounded/"
 commit = "*"
 version = "0.0.2"
 leftwm_versions = "^0.2.7"
+
+[[theme]]
+name = "Forest"
+repository = "https://github.com/lex148/forest/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
