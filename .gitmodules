@@ -23,3 +23,4 @@
 [submodule "forest"]
 	path = forest
 	url = https://github.com/lex148/forest.git
+	branch = master
