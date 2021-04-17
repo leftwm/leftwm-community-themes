@@ -36,6 +36,10 @@ Screenshots of the themes currently available:
 
 ![Soothe](screenshots/soothe.png)
 
+### Sunflower
+
+![Sunflower](screenshots/Sunflower.png)
+
 ### TNG
 
 ![TNG](screenshots/tng.jpg)
