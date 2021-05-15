@@ -24,3 +24,6 @@
 	path = forest
 	url = https://github.com/lex148/forest.git
 	branch = master
+[submodule "Blue Coffee"]
+	path = Blue Coffee
+	url = https://github.com/Qwart376/Blue-Coffee
