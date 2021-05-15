@@ -18,7 +18,7 @@ Screenshots of the themes currently available:
 
 ### Blue Coffee
 
-![Blue Coffee](screenshots/Blue Coffee.png)
+![Blue Coffee](screenshots/bc.png)
 
 ### Coffee
 
