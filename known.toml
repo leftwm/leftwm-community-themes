@@ -48,6 +48,19 @@ version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
+name = "Ground Zero"
+repository = "https://github.com/Qwart376/Ground-Zero/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
+
+name = "Red Moon"
+repository = "https://github.com/Qwart376/Red-Moon"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
+
+[[theme]]
 name = "Blue Coffee"
 repository = "https://github.com/Qwart376/Blue-Coffee/"
 commit = "*"

@@ -27,3 +27,9 @@
 [submodule "Blue Coffee"]
 	path = Blue Coffee
 	url = https://github.com/Qwart376/Blue-Coffee
+[submodule "Ground Zero"]
+	path = Ground Zero
+	url = https://github.com/Qwart376/Ground-Zero
+[submodule "Red Moon"]
+	path = Red Moon
+	url = https://github.com/Qwart376/Red-Moon
