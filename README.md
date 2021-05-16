@@ -32,9 +32,17 @@ Screenshots of the themes currently available:
 
 ![Forest](https://github.com/lex148/forest/raw/master/forest_screenshot.png)
 
+### Ground Zero
+
+![Ground Zero](screenshots/gz.png)
+
 ### Orange
 
 ![Orange](screenshots/orange.png)
+
+### Red Moon
+
+![Red Moon](screenshots/rm.png)
 
 ### Soothe
 
