@@ -48,6 +48,13 @@ version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
+name = "Blue Coffee"
+repository = "https://github.com/Qwart376/Blue-Coffee/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
+
+[[theme]]
 name = "sunflower"
 repository = "https://github.com/mautamu/leftwm-sunflower/"
 commit = "*"

@@ -16,6 +16,10 @@ In addition to the standard guidelines for themes we ask that you also include a
 
 Screenshots of the themes currently available:
 
+### Blue Coffee
+
+![Blue Coffee](screenshots/bc.png)
+
 ### Coffee
 
 ![Coffee](screenshots/Coffee.jpg)
