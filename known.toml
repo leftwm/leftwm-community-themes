@@ -54,6 +54,7 @@ commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
 
+[[theme]]
 name = "Red Moon"
 repository = "https://github.com/Qwart376/Red-Moon"
 commit = "*"
