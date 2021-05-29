@@ -61,7 +61,8 @@ Screenshots of the themes currently available:
 ![Windows XP](screenshots/xp.png)
 
 ### Bumblebee
-![Bumblebee](screenshots/bumblebee.png)
+
+![Bumblebee](screenshots/Bumblebee.png)
 
 ## LICENSE
 
