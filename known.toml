@@ -69,7 +69,7 @@ version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
-name = "sunflower"
+name = "Sunflower"
 repository = "https://github.com/mautamu/leftwm-sunflower/"
 commit = "*"
 version = "0.1.0"
