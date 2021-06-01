@@ -60,6 +60,10 @@ Screenshots of the themes currently available:
 
 ![Windows XP](screenshots/xp.png)
 
+### Bumblebee
+
+![Bumblebee](screenshots/Bumblebee.png)
+
 ## LICENSE
 
 This project is licensed under the BSD 3-Clause License.

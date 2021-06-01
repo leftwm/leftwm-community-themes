@@ -74,3 +74,11 @@ repository = "https://github.com/mautamu/leftwm-sunflower/"
 commit = "*"
 version = "0.1.0"
 leftwm_versions = ">0.2.6"
+
+[[theme]]
+name = "Bumblebee"
+repository = "https://github.com/mfdorst/leftwm-bumblebee/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "^0.2.8"
+
