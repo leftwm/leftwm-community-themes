@@ -33,3 +33,6 @@
 [submodule "Red Moon"]
 	path = Red Moon
 	url = https://github.com/Qwart376/Red-Moon
+[submodule "Changed Sunset"]
+	path = Changed Sunset
+	url = https://github.com/Syudagye/changed-sunset

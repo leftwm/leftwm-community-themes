@@ -64,6 +64,10 @@ Screenshots of the themes currently available:
 
 ![Bumblebee](screenshots/Bumblebee.png)
 
+### Changed Sunset
+
+![Changed Sunset](https://raw.githubusercontent.com/Syudagye/changed-sunset/master/screenshots/filled.png)
+
 ## LICENSE
 
 This project is licensed under the BSD 3-Clause License.
