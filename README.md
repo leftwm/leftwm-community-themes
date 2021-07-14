@@ -32,6 +32,10 @@ Screenshots of the themes currently available:
 
 ![Forest](https://github.com/lex148/forest/raw/master/forest_screenshot.png)
 
+### Garden
+
+![Ground Zero](screenshots/garden.png)
+
 ### Ground Zero
 
 ![Ground Zero](screenshots/gz.png)
