@@ -88,3 +88,10 @@ repository = "https://github.com/Syudagye/changed-sunset"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
+
+[[theme]]
+name = "Garden"
+repository = "https://github.com/taylor85345/leftwm-theme-garden"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
