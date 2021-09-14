@@ -1,68 +1,68 @@
 [[theme]]
-name = "orange-forest"
+name = "Orange Forest"
 repository = "https://github.com/PVautour/leftwm-theme-orange-forest/"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
-name = "coffee"
+name = "Coffee"
 repository = "https://github.com/lex148/leftwm-coffee/"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
-name = "soothe"
+name = "Soothe"
 repository = "https://github.com/b4skyx/leftwm-soothe/"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
-name = "tng"
+name = "TNG"
 repository = "https://github.com/lex148/leftwm-tng/"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
-name = "windows-xp"
+name = "Windows XP"
 repository = "https://github.com/lex148/leftwm-windowsxp/"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
-name = "dracula-rounded"
+name = "Dracula Rounded"
 repository = "https://github.com/AethanFoot/leftwm-theme-dracula-rounded/"
 commit = "*"
 version = "0.0.2"
 leftwm_versions = "^0.2.7"
 
 [[theme]]
-name = "forest"
+name = "Forest"
 repository = "https://github.com/lex148/forest/"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
-name = "ground-zero"
+name = "Ground Zero"
 repository = "https://github.com/Qwart376/Ground-Zero/"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
-name = "red-moon"
+name = "Red Moon"
 repository = "https://github.com/Qwart376/Red-Moon"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
-name = "blue-coffee"
+name = "Blue Coffee"
 repository = "https://github.com/Qwart376/Blue-Coffee/"
 commit = "*"
 version = "0.0.1"
@@ -76,21 +76,21 @@ version = "0.1.0"
 leftwm_versions = ">0.2.6"
 
 [[theme]]
-name = "bumblebee"
+name = "Bumblebee"
 repository = "https://github.com/mfdorst/leftwm-bumblebee/"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "^0.2.8"
 
 [[theme]]
-name = "changed-sunset"
+name = "Changed Sunset"
 repository = "https://github.com/Syudagye/changed-sunset"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
 
 [[theme]]
-name = "garden"
+name = "Garden"
 repository = "https://github.com/taylor85345/leftwm-theme-garden"
 commit = "*"
 version = "0.0.3"
