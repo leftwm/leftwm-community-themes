@@ -16,6 +16,7 @@ leftwm_versions = "*"
 name = "soothe"
 repository = "https://github.com/b4skyx/leftwm-soothe/"
 commit = "*"
+relative_directory = "theme/"
 version = "0.0.1"
 leftwm_versions = "*"
 
