@@ -28,6 +28,10 @@ Screenshots of the themes currently available:
 
 ![Dracula](screenshots/dracula.png)
 
+### Epitaph
+
+![Epitaph](screenshots/Epitaph.png)
+
 ### Forest
 
 ![Forest](https://github.com/lex148/forest/raw/master/forest_screenshot.png)
