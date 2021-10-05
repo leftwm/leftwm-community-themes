@@ -39,3 +39,6 @@
 [submodule "leftwm-theme-garden"]
 	path = leftwm-theme-garden
 	url = https://github.com/taylor85345/leftwm-theme-garden
+[submodule "epitaph"]
+	path = epitaph
+	url = https://github.com/VentGrey/Epitaph
