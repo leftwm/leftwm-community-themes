@@ -103,3 +103,10 @@ repository = "https://github.com/VentGrey/Epitaph"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"
+
+[[theme]]
+name = "Ocean-night"
+repository = "https://github.com/TheRoniOne/ocean-night"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
