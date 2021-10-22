@@ -42,3 +42,6 @@
 [submodule "epitaph"]
 	path = epitaph
 	url = https://github.com/VentGrey/Epitaph
+[submodule "ocean-night"]
+	path = ocean-night
+	url = https://github.com/TheRoniOne/ocean-night
