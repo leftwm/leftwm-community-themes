@@ -1,0 +1,75 @@
+configuration {
+    show-icons:                     true;
+    disable-history:                false;
+    fullscreen:                     false;
+	hide-scrollbar: 				true;
+	sidebar-mode: 					false;
+}
+
+* {
+    font: "SauceCodePro Nerd Font Semibold 11";
+    foreground:                 #f8f8f2;
+    background-color:           #282a36b3;
+    selected-foreground:        #bd93f9;
+    selected-background:        #b2b2b250;
+    separatorcolor:             #ff79c6;
+    bordercolor:                #ff79c6;
+    highlightcolor:             #8be9fd;
+    transparent:                #00000000;
+}
+
+#window {
+    background-color:               @background;
+    text-color:                     @foreground;
+	border:							0;
+	border-color:					@background;
+    border-radius:                  8;
+	width:							300px;
+    location:                       northeast;
+    x-offset:                       -8;
+    y-offset:                       40;
+}
+
+#listview {
+    background-color:               @transparent;
+    padding:                        0px;
+    columns:                        1;
+    lines:                          5;
+    spacing:                        0px;
+    cycle:                          true;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+#mainbox {
+    children:                       [ listview ];
+    background-color:               @transparent;
+}
+
+#element {
+    background-color:               @transparent;
+    text-color:                     @foreground;
+    orientation:                    horizontal;
+    border-radius:                  8;
+    padding:                        10px;
+    children: [element-icon, element-text];
+}
+
+#element-text {
+    font: "SauceCodePro NF Medium 11";
+    background-color: @transparent;
+    text-color:       inherit;
+}
+
+#element-icon {
+    size: 0.9em;
+    background-color: @transparent;
+    text-color:       inherit;
+}
+
+#element.selected {
+    background-color:               @selected-background;
+    text-color:                     @selected-foreground;
+	border:							0;
+    border-radius:                  8;
+}
