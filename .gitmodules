@@ -45,6 +45,3 @@
 [submodule "ocean-night"]
 	path = ocean-night
 	url = https://github.com/TheRoniOne/ocean-night
-[submodule "amber"]
-	path = amber
-	url = https://github.com/di-effe/amber
