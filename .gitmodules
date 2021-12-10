@@ -45,3 +45,6 @@
 [submodule "ocean-night"]
 	path = ocean-night
 	url = https://github.com/TheRoniOne/ocean-night
+[submodule "Flamingo"]
+	path = Flamingo
+	url = https://github.com/necaris/leftwm-theme-flamingo
