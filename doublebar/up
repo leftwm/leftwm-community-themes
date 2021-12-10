@@ -1,0 +1,80 @@
+#!/bin/bash
+export SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
+# Down the last running theme
+if [ -f "/tmp/leftwm-theme-down" ]; then
+    /tmp/leftwm-theme-down
+    rm /tmp/leftwm-theme-down
+fi
+ln -s "$SCRIPTPATH"/down /tmp/leftwm-theme-down
+
+#change your keyboard if you need it - azerty or qwerty
+#setxkbmap -layout be
+keybLayout=$(setxkbmap -v | awk -F "+" '/symbols/ {print $2}')
+
+if [ $keybLayout = "be" ]; then
+  cp "$SCRIPTPATH"/config/config-azerty.toml ~/.config/leftwm/config.toml
+else
+  cp "$SCRIPTPATH"/config/config-qwerty.toml ~/.config/leftwm/config.toml
+fi
+
+# keybindings daemon
+# put your personal keybinds inside your theme and use those
+if [ -f "$SCRIPTPATH/sxhkd/sxhkdrc" ] ; then
+  # check if there is a keybinds-folder inside your personal theme and use it
+  # to use the standard keybinds, delete the dir sxhkd inside your theme
+  sxhkd -c ~/.config/leftwm/themes/current/sxhkd/sxhkdrc & 
+else
+  # standard keybinds
+  sxhkd -c ~/.config/leftwm/sxhkd/sxhkdrc &
+fi    
+
+# diversity of apps to start
+nm-applet &
+pamac-tray &
+xfce4-power-manager &
+numlockx on &
+blueberry-tray &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
+volumeicon &
+#conky -c ~/.config/leftwm/system-overview &
+#nitrogen --restore &
+#caffeine &
+#vivaldi-stable &
+#firefox &
+#thunar &
+#dropbox &
+#insync start &
+#discord &
+#spotify &
+#atom &
+
+# Boot picom or compton if it exists
+if [ -x "$(command -v picom)" ]; then
+  picom --config "$SCRIPTPATH"/picom/picom.conf &> /dev/null &
+  #picom --config $HOME/.config/leftwm/themes/current/picom.conf --experimental-backends &> /dev/null &
+  #picom &> /dev/null &
+  #picom --experimental-backends &> /dev/null &
+elif [ -x "$(command -v compton)" ]; then
+  compton &> /dev/null &
+fi
+
+# Set the theme.toml config
+echo "LoadTheme "$SCRIPTPATH"/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
+
+# Set background
+if [ -x "$(command -v feh)" ]; then
+  feh --randomize --bg-fill /usr/share/backgrounds/*
+fi
+
+#mainbar
+index=0
+monitors=($(polybar -m | sed s/:.*//))
+leftwm-state -q -n -t "$SCRIPTPATH"/sizes.liquid | sed -r '/^\s*$/d' | while read -r width x y
+do
+  barname="mainbar$index"
+  monitor=${monitors[index]} width=$(( width - 16 )) polybar -c "$SCRIPTPATH"/polybar/polybartop.config $barname &> /dev/null &
+  monitor=${monitors[index]} width=$(( width - 16 )) polybar -c "$SCRIPTPATH"/polybar/polybarbottom.config $barname &> /dev/null &
+  let index=index+1
+done

@@ -1,0 +1,5 @@
+{% for tag in workspace.tags %}
+{% if tag.focused %}
+{{tag.index}}
+{% endif %}
+{% endfor %}
