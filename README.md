@@ -72,9 +72,9 @@ Screenshots of the themes currently available:
 
 ![Bumblebee](screenshots/Bumblebee.png)
 
-### Changed Sunset
+### Sunset
 
-![Changed Sunset](https://raw.githubusercontent.com/Syudagye/changed-sunset/master/screenshots/filled.png)
+![Sunset](https://raw.githubusercontent.com/Syudagye/leftwm-sunset/master/screenshots/filled.png)
 
 ## LICENSE
 
