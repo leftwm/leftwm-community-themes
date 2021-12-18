@@ -117,3 +117,10 @@ repository = "https://github.com/necaris/leftwm-theme-flamingo"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = ">0.2.7"
+
+[[theme]]
+name = "Amber"
+repository = "https://github.com/di-effe/amber"
+commit = "*"
+version = "0.2.2"
+leftwm_versions = ">0.2.10"

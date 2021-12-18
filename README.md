@@ -76,6 +76,10 @@ Screenshots of the themes currently available:
 
 ![Sunset](https://raw.githubusercontent.com/Syudagye/leftwm-sunset/master/screenshots/filled.png)
 
+### Amber
+
+![Amber](screenshots/amber.png)
+
 ## LICENSE
 
 This project is licensed under the BSD 3-Clause License.
