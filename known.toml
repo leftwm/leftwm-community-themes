@@ -84,8 +84,8 @@ version = "0.0.1"
 leftwm_versions = "^0.2.8"
 
 [[theme]]
-name = "Changed Sunset"
-repository = "https://github.com/Syudagye/changed-sunset"
+name = "Sunset"
+repository = "https://github.com/Syudagye/leftwm-sunset"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = "*"

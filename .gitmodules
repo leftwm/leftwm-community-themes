@@ -33,9 +33,9 @@
 [submodule "Red Moon"]
 	path = Red Moon
 	url = https://github.com/Qwart376/Red-Moon
-[submodule "Changed Sunset"]
-	path = Changed Sunset
-	url = https://github.com/Syudagye/changed-sunset
+[submodule "Sunset"]
+	path = Sunset
+	url = https://github.com/Syudagye/leftwm-sunset
 [submodule "leftwm-theme-garden"]
 	path = leftwm-theme-garden
 	url = https://github.com/taylor85345/leftwm-theme-garden
