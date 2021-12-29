@@ -80,6 +80,10 @@ Screenshots of the themes currently available:
 
 ![Amber](screenshots/amber.png)
 
+### Catppuccin
+
+![Catppuccin](screenshots/catppuccin.png)
+
 ## LICENSE
 
 This project is licensed under the BSD 3-Clause License.

@@ -51,3 +51,6 @@
 [submodule "amber"]
 	path = amber
 	url = https://github.com/di-effe/amber
+[submodule "catppuccin"]
+	path = catppuccin
+	url = https://github.com/di-effe/catppuccin
