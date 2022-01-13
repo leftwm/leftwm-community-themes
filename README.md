@@ -84,6 +84,10 @@ Screenshots of the themes currently available:
 
 ![Catppuccin](screenshots/catppuccin.png)
 
+### Molese
+
+![Molese](screenshots/molese.png)
+
 ## LICENSE
 
 This project is licensed under the BSD 3-Clause License.
