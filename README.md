@@ -80,6 +80,10 @@ Screenshots of the themes currently available:
 
 ![Amber](screenshots/amber.png)
 
+### Molese
+
+![Molese](screenshots/molese.png)
+
 ## LICENSE
 
 This project is licensed under the BSD 3-Clause License.
