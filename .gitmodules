@@ -58,3 +58,6 @@
 	path = Molese
 	url = https://github.com/m0lese/leftwm-config
 	branch = prime
+[submodule "Bumblebee"]
+	path = Bumblebee
+	url = https://github.com/mfdorst/leftwm-bumblebee/
