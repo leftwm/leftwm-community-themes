@@ -51,3 +51,7 @@
 [submodule "amber"]
 	path = amber
 	url = https://github.com/di-effe/amber
+[submodule "Molese"]
+	path = Molese
+	url = https://github.com/m0lese/leftwm-config
+	branch = prime
