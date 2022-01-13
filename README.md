@@ -80,6 +80,10 @@ Screenshots of the themes currently available:
 
 ![Amber](screenshots/amber.png)
 
+### Catppuccin
+
+![Catppuccin](screenshots/catppuccin.png)
+
 ### Molese
 
 ![Molese](screenshots/molese.png)

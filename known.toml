@@ -126,6 +126,13 @@ version = "0.2.2"
 leftwm_versions = ">0.2.10"
 
 [[theme]]
+name = "Catppuccin"
+repository = "https://github.com/di-effe/catppuccin"
+commit = "*"
+version = "0.1.1"
+leftwm_versions = ">0.2.10"
+
+[[theme]]
 name = "Molese"
 repository = "https://github.com/m0lese/leftwm-config"
 commit = "*"
