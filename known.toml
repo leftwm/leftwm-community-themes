@@ -1,3 +1,5 @@
+definitions_version = 1
+
 [[theme]]
 name = "Orange Forest"
 repository = "https://github.com/PVautour/leftwm-theme-orange-forest/"
