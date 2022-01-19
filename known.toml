@@ -150,7 +150,7 @@ version = "0.0.1"
 leftwm_versions = "<0.3.0"
 
 [[theme]]
-name = "Space Jelly"
+name = "SpaceJelly"
 repository = "https://gitlab.com/jchand99/space_jelly"
 commit = "*"
 version = "1.0.0"
