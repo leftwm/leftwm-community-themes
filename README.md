@@ -88,7 +88,7 @@ Screenshots of the themes currently available:
 
 ![Molese](screenshots/molese.png)
 
-###
+### SpaceJelly
 
 ![SpaceJelly](screenshots/SpaceJelly.png)
 
