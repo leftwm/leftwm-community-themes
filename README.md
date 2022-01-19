@@ -94,6 +94,10 @@ Screenshots of the themes currently available:
 
 ![SpaceJelly](screenshots/SpaceJelly.png)
 
+### SpaceJelly
+
+![SpaceJelly](screenshots/SpaceJelly.png)
+
 ## LICENSE
 
 This project is licensed under the BSD 3-Clause License.
