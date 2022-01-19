@@ -90,6 +90,10 @@ Screenshots of the themes currently available:
 ![Molese-1](screenshots/molese-1.png)
 ![Molese-2](screenshots/molese-2.png)
 
+###
+
+![SpaceJelly](screenshots/SpaceJelly.png)
+
 ## LICENSE
 
 This project is licensed under the BSD 3-Clause License.

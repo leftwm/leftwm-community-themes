@@ -61,3 +61,6 @@
 [submodule "Sunset"]
 	path = Sunset
 	url = https://github.com/Syudagye/leftwm-sunset
+[submodule "space_jelly"]
+	path = space_jelly
+	url = https://gitlab.com/jchand99/space_jelly
