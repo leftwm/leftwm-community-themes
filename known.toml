@@ -12,7 +12,7 @@ name = "Coffee"
 repository = "https://github.com/lex148/leftwm-coffee/"
 commit = "*"
 version = "0.0.1"
-leftwm_versions = "*"
+leftwm_versions = "<0.3.0"
 
 [[theme]]
 name = "Soothe"
@@ -55,42 +55,42 @@ name = "Ground Zero"
 repository = "https://github.com/Qwart376/Ground-Zero/"
 commit = "*"
 version = "0.0.1"
-leftwm_versions = "*"
+leftwm_versions = "<0.3.0"
 
 [[theme]]
 name = "Red Moon"
 repository = "https://github.com/Qwart376/Red-Moon"
 commit = "*"
 version = "0.0.1"
-leftwm_versions = "*"
+leftwm_versions = "<0.3.0"
 
 [[theme]]
 name = "Blue Coffee"
 repository = "https://github.com/Qwart376/Blue-Coffee/"
 commit = "*"
 version = "0.0.1"
-leftwm_versions = "*"
+leftwm_versions = "<0.3.0"
 
 [[theme]]
 name = "sunflower"
 repository = "https://github.com/mautamu/leftwm-sunflower/"
 commit = "*"
 version = "0.1.0"
-leftwm_versions = ">0.2.6"
+leftwm_versions = ">0.2.6, <0.3.0"
 
 [[theme]]
 name = "Bumblebee"
 repository = "https://github.com/mfdorst/leftwm-bumblebee/"
 commit = "*"
 version = "0.0.1"
-leftwm_versions = "^0.2.8"
+leftwm_versions = "^0.2.8, <0.3.0"
 
 [[theme]]
 name = "Sunset"
 repository = "https://github.com/Syudagye/leftwm-sunset"
 commit = "*"
 version = "0.0.1"
-leftwm_versions = "*"
+leftwm_versions = "<0.3.0"
 
 [[theme]]
 name = "Garden"
@@ -118,7 +118,7 @@ name = "Flamingo"
 repository = "https://github.com/necaris/leftwm-theme-flamingo"
 commit = "*"
 version = "0.0.1"
-leftwm_versions = ">0.2.7"
+leftwm_versions = ">0.2.7, <0.3.0"
 
 [[theme]]
 name = "Amber"
