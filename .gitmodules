@@ -64,3 +64,6 @@
 [submodule "space_jelly"]
 	path = space_jelly
 	url = https://gitlab.com/jchand99/space_jelly
+[submodule "doublebar"]
+	path = doublebar
+	url = https://github.com/PeterDauwe/doublebar/
