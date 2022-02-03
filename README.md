@@ -94,6 +94,11 @@ Screenshots of the themes currently available:
 
 ![SpaceJelly](screenshots/SpaceJelly.png)
 
+### Ascent
+
+![Ascent-0](screenshots/ascent-0.png)
+![Ascent-1](screenshots/ascent-1.png)
+
 ## LICENSE
 
 This project is licensed under the BSD 3-Clause License.
