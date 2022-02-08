@@ -97,7 +97,7 @@ name = "Garden"
 repository = "https://github.com/taylor85345/leftwm-theme-garden"
 commit = "*"
 version = "0.0.4"
-leftwm_versions = ">.2.7"
+leftwm_versions = ">0.2.7"
 
 [[theme]]
 name = "Epitaph"
