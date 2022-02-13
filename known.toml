@@ -138,7 +138,7 @@ leftwm_versions = ">0.2.10, <0.3.0"
 name = "Molese"
 repository = "https://github.com/m0lese/leftwm-config"
 commit = "*"
-version = "1.1.0"
+version = "2.1.0"
 leftwm_versions = ">0.2.10, <0.3.0"
 
 [[theme]]
