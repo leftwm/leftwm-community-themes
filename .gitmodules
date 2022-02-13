@@ -67,3 +67,6 @@
 [submodule "doublebar"]
 	path = doublebar
 	url = https://github.com/PeterDauwe/doublebar/
+[submodule "ascent"]
+  path = ascent
+  url = https://gitlab.com/mWalrus/ascent

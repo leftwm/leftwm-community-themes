@@ -154,3 +154,10 @@ repository = "https://gitlab.com/jchand99/space_jelly"
 commit = "*"
 version = "1.0.0"
 leftwm_versions = ">0.2.10, <0.3.0"
+
+[[theme]]
+name = "Ascent"
+repository = "https://gitlab.com/mWalrus/ascent"
+commit = "*"
+version = "1.0.0"
+leftwm_versions = ">0.2.7"
