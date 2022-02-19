@@ -89,6 +89,7 @@ Screenshots of the themes currently available:
 ![Molese-0](screenshots/molese-0.png)
 ![Molese-1](screenshots/molese-1.png)
 ![Molese-2](screenshots/molese-2.png)
+![Molese-3](screenshots/molese-3.png)
 
 ### SpaceJelly
 
