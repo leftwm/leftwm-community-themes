@@ -64,6 +64,9 @@
 [submodule "space_jelly"]
 	path = space_jelly
 	url = https://gitlab.com/jchand99/space_jelly
+[submodule "leftwm-sunflower"]
+	path = leftwm-sunflower
+	url = https://github.com/mautamu/leftwm-sunflower/
 [submodule "doublebar"]
 	path = doublebar
 	url = https://github.com/PeterDauwe/doublebar/
