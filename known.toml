@@ -73,8 +73,8 @@ leftwm_versions = "*"
 name = "sunflower"
 repository = "https://github.com/mautamu/leftwm-sunflower/"
 commit = "*"
-version = "0.1.0"
-leftwm_versions = ">0.2.6"
+version = "0.1.2"
+leftwm_versions = "^0.2.10"
 
 [[theme]]
 name = "Bumblebee"
