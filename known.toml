@@ -161,3 +161,10 @@ repository = "https://gitlab.com/mWalrus/ascent"
 commit = "*"
 version = "1.0.0"
 leftwm_versions = ">0.2.7"
+
+[[theme]]
+name = "Zexanima"
+repository = "https://github.com/calebgasser/zexanima-leftwm-theme/tree/develop"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = ">0.3.0"
