@@ -4,8 +4,8 @@ definitions_version = 1
 name = "Orange Forest"
 repository = "https://github.com/PVautour/leftwm-theme-orange-forest/"
 commit = "*"
-version = "0.0.1"
-leftwm_versions = "<0.3.0"
+version = "0.0.2"
+leftwm_versions = "^0.3.0"
 
 [[theme]]
 name = "Coffee"
@@ -40,8 +40,8 @@ leftwm_versions = "<0.3.0"
 name = "Dracula Rounded"
 repository = "https://github.com/AethanFoot/leftwm-theme-dracula-rounded/"
 commit = "*"
-version = "0.0.2"
-leftwm_versions = "^0.2.7, <0.3.0"
+version = "0.0.3"
+leftwm_versions = "^0.3.0"
 
 [[theme]]
 name = "Forest"
@@ -103,7 +103,7 @@ leftwm_versions = ">0.2.7"
 name = "Epitaph"
 repository = "https://github.com/VentGrey/Epitaph"
 commit = "*"
-version = "0.0.1"
+version = "0.0.2"
 leftwm_versions = "*"
 
 [[theme]]
@@ -145,8 +145,8 @@ leftwm_versions = ">0.2.10, <0.3.0"
 name = "Double Bar"
 repository = "https://github.com/PeterDauwe/doublebar/"
 commit = "*"
-version = "0.0.1"
-leftwm_versions = "<0.3.0"
+version = "0.0.2"
+leftwm_versions = "^0.3.0"
 
 [[theme]]
 name = "SpaceJelly"

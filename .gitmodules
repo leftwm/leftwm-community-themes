@@ -53,8 +53,7 @@
 	url = https://github.com/di-effe/catppuccin
 [submodule "Molese"]
 	path = Molese
-	url = https://github.com/m0lese/leftwm-config
-	branch = prime
+	url = https://github.com/mautamu/molese
 [submodule "Bumblebee"]
 	path = Bumblebee
 	url = https://github.com/mfdorst/leftwm-bumblebee/
