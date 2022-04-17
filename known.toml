@@ -48,7 +48,7 @@ name = "Forest"
 repository = "https://github.com/lex148/forest/"
 commit = "*"
 version = "0.0.1"
-leftwm_versions = "<0.3.0"
+leftwm_versions = "^0.3.0"
 
 [[theme]]
 name = "Ground Zero"
