@@ -72,3 +72,6 @@
 [submodule "ascent"]
   path = ascent
   url = https://gitlab.com/mWalrus/ascent
+[submodule "zexanima-leftwm-theme"]
+	path = zexanima-leftwm-theme
+	url = https://github.com/calebgasser/zexanima-leftwm-theme.git
