@@ -1,3 +1,3 @@
 # leftwm-custom
-Ricing and settings for LeftWm
+Ricing and settings for LeftWM 
 https://github.com/leftwm/leftwm
