@@ -1,0 +1,400 @@
+# Modified By: archenemy
+# Modified on: 4/30/22, 3/21/22 3/8/22, 2/26/22
+# Modifications: 1) Keybinding Additions=firefox, thunar, togglefullscreen, MoveWindowToNext/PreviousTag Execute leftwm-command SendWindowToTag[1-5], Execute leftwm-command SendWindowToTag[6-9] SendWorkspaceToTag[6-9] 2) overide of default vars=  workspaces[]->defined workspaces by screen positions and wsid 3) layouts- removed a few layouts renamed tags from 1-9 to catalan numbers 4)added keybindings for peintscrn, dualhead monitor launch, rofi launch, backup script launch, pacup script launch, postup script launch 
+ 
+modkey = "Mod4"
+mousekey = "Mod4"
+workspaces = [
+  # HDMI-Screen as defined workspace 1
+  { y = 0, x = 0, height = 1080, width = 1920, id = 1},
+  # eDP-laptop screen as defined workspace 0
+  { y = 0, x = 1920 , height = 1080, width = 1920, id = 0},
+]
+tags = ["un", "dos", "tres", "quatre", "cinc", "sis", "set", "vuit", "nou"]
+layouts = ["MainAndVertStack", "MainAndHorizontalStack", "GridHorizontal", "EvenHorizontal", "EvenVertical", "Fibonacci", "CenterMain", "CenterMainBalanced", "Monocle"]
+layout_mode = "Workspace"
+scratchpad = []
+disable_current_tag_swap = false
+focus_behaviour = "Sloppy"
+focus_new_windows = true
+
+# workspaces = []
+# disable_current_tag_swap = false
+# layouts = ["MainAndVertStack", "MainAndHorizontalStack", "MainAndDeck", "GridHorizontal", "EvenHorizontal", "EvenVertical", "Fibonacci", "CenterMain", "CenterMainBalanced", "Monocle", "RightWiderLeftStack", "LeftWiderRightStack"]
+
+## Custom keybindings
+
+[[keybind]]
+command = "Execute"
+value = "kitty sh -c /home/archenemy/bin/postup"
+modifier = ["modkey"]
+key = "o"
+
+[[keybind]]
+command = "Execute"
+value = "kitty sh -c /home/archenemy/bin/pacup_script"
+modifier = ["modkey"]
+key = "u"
+
+[[keybind]]
+command = "Execute"
+value = "kitty sh -c /home/archenemy/bin/backup_current"
+modifier = ["modkey"]
+key = "b"
+
+[[keybind]]
+command = "Execute"
+value = "sh -c /home/archenemy/.screenlayout/dualhead.sh"
+modifier = ["modkey"]
+key = "a"
+
+[[keybind]]
+command = "Execute"
+value = "import -window root ~/Pictures/$(date '+%Y%m%d-%H%M%S').png"
+modifier = []
+key = "Print"
+
+[[keybind]]
+command = "Execute"
+value = "rofi -show drun"
+modifier = ["modkey"]
+key = "d"
+
+[[keybind]]
+command = "Execute"
+value = "firefox"
+modifier = ["modkey"]
+key = "f"
+
+[[keybind]]
+command = "Execute"
+value = "thunar"
+modifier = ["modkey"]
+key = "t"
+
+[[keybind]]
+command = "Execute"
+value = "pavucontrol"
+modifier = ["modkey","Control"]
+key = "v"
+
+[[keybind]]
+command = "ToggleFullScreen"
+modifier = ["modkey"]
+key = "m"
+
+[[keybind]]
+command = "Execute"
+value = "pactl set-sink-volume @DEFAULT_SINK@ -1000"
+modifier = []
+key = "XF86XK_AudioLowerVolume"
+
+[[keybind]]
+command = "Execute"
+value = "pactl set-sink-volume @DEFAULT_SINK@ +1000"
+modifier = []
+key = "XF86XK_AudioRaiseVolume"
+
+[[keybind]]
+command = "Execute"
+value = "leftwm-command 'SendWindowToTag 1'"
+modifier = ["modkey", "Control"]
+key = "1"
+
+[[keybind]]
+command = "Execute"
+value = "leftwm-command 'SendWindowToTag 2'"
+modifier = ["modkey", "Control"]
+key = "2"
+
+[[keybind]]
+command = "Execute"
+value = "leftwm-command 'SendWindowToTag 3"
+modifier = ["modkey", "Control"]
+key = "3"
+
+[[keybind]]
+command = "Execute"
+value = "leftwm-command 'SendWindowToTag 4'"
+modifier = ["modkey", "Control"]
+key = "4"
+
+[[keybind]]
+command = "Execute"
+value = "leftwm-command 'SendWindowToTag 5'"
+modifier = ["modkey", "Control"]
+key = "5"
+
+[[keybind]]
+command = "Execute"
+value = "leftwm-command 'SendWindowToTag 6' 'SendWorkspaceToTag 1 6'" # Send window to tag 6 and move tag 6 to workspace 1 (hdmi screen)
+modifier = ["modkey", "Control"]
+key = "6"
+
+[[keybind]]
+command = "Execute"
+value = "leftwm-command 'SendWindowToTag 7' 'SendWorkspaceToTag 1 7'"  # Send window to tag 7 and move tag 7 to workspace 1 (hdmi screen)
+modifier = ["modkey", "Control"]
+key = "7"
+
+[[keybind]]
+command = "Execute"
+value = "leftwm-command 'SendWindowToTag 8' 'SendWorkspaceToTag 1 8'" # Send window to tag 8 and move tag 8 to workspace 1 (hdmi screen)
+modifier = ["modkey", "Control"]
+key = "8"
+
+[[keybind]]
+command = "Execute"
+value = "leftwm-command 'SendWindowToTag 9' 'SendWorkspaceToTag 1 9'" # Send window to tag 9 and move tag 9 to workspace 1 (hdmi screen)
+modifier = ["modkey", "Control"]
+key = "9"
+
+[[keybind]]
+command = "MoveWindowToNextWorkspace"
+modifier = ["modkey", "Shift"]
+key = "Right"
+
+[[keybind]]
+command = "MoveWindowToPreviousWorkspace"
+modifier = ["modkey", "Shift"]
+key = "Left"
+
+## Default Keybindings
+
+[[keybind]]
+command = "Execute"
+value = "dmenu_run"
+modifier = ["modkey"]
+key = "p"
+
+[[keybind]]
+command = "Execute"
+value = "kitty" # customized with kitty as terminal
+modifier = ["modkey", "Shift"]
+key = "Return"
+
+[[keybind]]
+command = "CloseWindow"
+modifier = ["modkey", "Shift"]
+key = "q"
+
+[[keybind]]
+command = "SoftReload"
+modifier = ["modkey", "Shift"]
+key = "r"
+
+[[keybind]]
+command = "Execute"
+value = "loginctl kill-session $XDG_SESSION_ID"
+modifier = ["modkey", "Shift"]
+key = "x"
+
+[[keybind]]
+command = "Execute"
+value = "slock"
+modifier = ["modkey", "Control"]
+key = "l"
+
+[[keybind]]
+command = "MoveToLastWorkspace"
+modifier = ["modkey", "Shift"]
+key = "w"
+
+[[keybind]]
+command = "SwapTags"
+modifier = ["modkey"]
+key = "w"
+
+[[keybind]]
+command = "MoveWindowUp"
+modifier = ["modkey", "Shift"]
+key = "k"
+
+[[keybind]]
+command = "MoveWindowDown"
+modifier = ["modkey", "Shift"]
+key = "j"
+
+[[keybind]]
+command = "MoveWindowTop"
+modifier = ["modkey"]
+key = "Return"
+
+[[keybind]]
+command = "FocusWindowUp"
+modifier = ["modkey"]
+key = "k"
+
+[[keybind]]
+command = "FocusWindowDown"
+modifier = ["modkey"]
+key = "j"
+
+[[keybind]]
+command = "NextLayout"
+modifier = ["modkey", "Control"]
+key = "k"
+
+[[keybind]]
+command = "PreviousLayout"
+modifier = ["modkey", "Control"]
+key = "j"
+
+[[keybind]]
+command = "FocusWorkspaceNext"
+modifier = ["modkey"]
+key = "l"
+
+[[keybind]]
+command = "FocusWorkspacePrevious"
+modifier = ["modkey"]
+key = "h"
+
+[[keybind]]
+command = "MoveWindowUp"
+modifier = ["modkey", "Shift"]
+key = "Up"
+
+[[keybind]]
+command = "MoveWindowDown"
+modifier = ["modkey", "Shift"]
+key = "Down"
+
+[[keybind]]
+command = "FocusWindowUp"
+modifier = ["modkey"]
+key = "Up"
+
+[[keybind]]
+command = "FocusWindowDown"
+modifier = ["modkey"]
+key = "Down"
+
+[[keybind]]
+command = "NextLayout"
+modifier = ["modkey", "Control"]
+key = "Up"
+
+[[keybind]]
+command = "PreviousLayout"
+modifier = ["modkey", "Control"]
+key = "Down"
+
+[[keybind]]
+command = "FocusWorkspaceNext"
+modifier = ["modkey"]
+key = "Right"
+
+[[keybind]]
+command = "FocusWorkspacePrevious"
+modifier = ["modkey"]
+key = "Left"
+
+[[keybind]]
+command = "GotoTag"
+value = "1"
+modifier = ["modkey"]
+key = "1"
+
+[[keybind]]
+command = "GotoTag"
+value = "2"
+modifier = ["modkey"]
+key = "2"
+
+[[keybind]]
+command = "GotoTag"
+value = "3"
+modifier = ["modkey"]
+key = "3"
+
+[[keybind]]
+command = "GotoTag"
+value = "4"
+modifier = ["modkey"]
+key = "4"
+
+[[keybind]]
+command = "GotoTag"
+value = "5"
+modifier = ["modkey"]
+key = "5"
+
+[[keybind]]
+command = "GotoTag"
+value = "6"
+modifier = ["modkey"]
+key = "6"
+
+[[keybind]]
+command = "GotoTag"
+value = "7"
+modifier = ["modkey"]
+key = "7"
+
+[[keybind]]
+command = "GotoTag"
+value = "8"
+modifier = ["modkey"]
+key = "8"
+
+[[keybind]]
+command = "GotoTag"
+value = "9"
+modifier = ["modkey"]
+key = "9"
+
+[[keybind]]
+command = "MoveToTag"
+value = "1"
+modifier = ["modkey", "Shift"]
+key = "1"
+
+[[keybind]]
+command = "MoveToTag"
+value = "2"
+modifier = ["modkey", "Shift"]
+key = "2"
+
+[[keybind]]
+command = "MoveToTag"
+value = "3"
+modifier = ["modkey", "Shift"]
+key = "3"
+
+[[keybind]]
+command = "MoveToTag"
+value = "4"
+modifier = ["modkey", "Shift"]
+key = "4"
+
+[[keybind]]
+command = "MoveToTag"
+value = "5"
+modifier = ["modkey", "Shift"]
+key = "5"
+
+[[keybind]]
+command = "MoveToTag"
+value = "6"
+modifier = ["modkey", "Shift"]
+key = "6"
+
+[[keybind]]
+command = "MoveToTag"
+value = "7"
+modifier = ["modkey", "Shift"]
+key = "7"
+
+[[keybind]]
+command = "MoveToTag"
+value = "8"
+modifier = ["modkey", "Shift"]
+key = "8"
+
+[[keybind]]
+command = "MoveToTag"
+value = "9"
+modifier = ["modkey", "Shift"]
+key = "9"
+
