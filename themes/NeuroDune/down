@@ -7,7 +7,7 @@ export SCRIPTPATH
 down_theme() {
 #set background to blank image
 if type -P feh &>/dev/null; then 
-    feh --bg-fill "$SCRIPTPATH"/down.jpg || { printf "err loading down.jpg..exit 1\n" &> /tmp/leftwm.log; exit 1 ; } 
+    feh --bg-fill "$SCRIPTPATH"/down.jpg 
   else
     printf "feh command not found.exit 1\n" &> /tmp/leftwm.log
     exit 1
