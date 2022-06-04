@@ -19,4 +19,7 @@ Theme in the spirit of three great novels: Dune (by Frank Herbert), Neuromancer 
   Kitty config example in personal ricing repo 
 2) Starship - A Rust Based ShellPrompt - (starship.rs/) 
   Starship config example in personal ricing repo
-3) Rofi - DMENU Replacment - (https://github.com/DaveDavenport/rofi) 
+3) Rofi - DMENU Replacment - (https://github.com/DaveDavenport/rofi)
+
+
+![screenshots terminal eyecandy](./screen_20220604-213905.png?raw=true)
