@@ -21,5 +21,6 @@ Theme in the spirit of three great novels: Dune (by Frank Herbert), Neuromancer 
   Starship config example in personal ricing repo
 3) Rofi - DMENU Replacment - (https://github.com/DaveDavenport/rofi)
 
-
-![screenshots terminal eyecandy](./screen_20220604-213905.png?raw=true)
+![screenshot wallstatus](./screenshot_wallstatus.png?raw=true)
+![screenshot kitttyandkeys](./screenshot_term_andKeylist.png?raw=true)
+![screenshot terminal eyecandy](./screen_20220604-213905.png?raw=true)
