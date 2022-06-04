@@ -1,3 +1,7 @@
+This is IN ENTIRETY a Copy of README.md from LeftWM Themes Repo
+https://github.com/leftwm/leftwm/tree/main/themes
+
+
 # Why have themes
 
 With LeftWM, there are two types of configs:
