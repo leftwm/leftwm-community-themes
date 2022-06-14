@@ -75,3 +75,6 @@
 [submodule "zexanima-leftwm-theme"]
 	path = zexanima-leftwm-theme
 	url = https://github.com/calebgasser/zexanima-leftwm-theme.git
+[submodule "minimal_solarized"]
+	path = minimal_solarized
+	url = https://github.com/minda1975/minimal_solarized

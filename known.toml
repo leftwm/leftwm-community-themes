@@ -168,3 +168,10 @@ repository = "https://github.com/calebgasser/zexanima-leftwm-theme/tree/develop"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = ">0.3.0"
+
+[[theme]]
+name = "minimal-solarized"
+repository = "https://github.com/minda1975/minimal_solarized"
+commit = "*"
+version = "0.1.0"
+leftwm_versions = "^0.3.0"
