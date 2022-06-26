@@ -48,6 +48,10 @@ Screenshots of the themes currently available:
 
 ![Orange](screenshots/orange.png)
 
+### Plan9
+
+![Plan9](screenshots/plan9.png)
+
 ### Red Moon
 
 ![Red Moon](screenshots/rm.png)
