@@ -51,6 +51,14 @@ version = "0.0.1"
 leftwm_versions = "^0.3.0"
 
 [[theme]]
+name = "arch-one-dark"
+repository = "https://github.com/jamesbaker1901/leftwm-arch-one-dark/"
+commit = "*"
+version = "1.0.0"
+leftwm_versions = "^0.3.0"
+
+
+[[theme]]
 name = "Ground Zero"
 repository = "https://github.com/Qwart376/Ground-Zero/"
 commit = "*"

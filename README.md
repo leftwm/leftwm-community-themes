@@ -16,6 +16,9 @@ In addition to the standard guidelines for themes we ask that you also include a
 
 Screenshots of the themes currently available:
 
+### arch-one-dark
+![arch-one-dark](screenshots/arch-one-dark.png)
+
 ### Blue Coffee
 
 ![Blue Coffee](screenshots/bc.png)
