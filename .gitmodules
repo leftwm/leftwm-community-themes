@@ -84,3 +84,6 @@
 [submodule "plan9"]
 	path = leftwm-theme-plan9
 	url = https://github.com/seabassapologist/leftwm-theme-plan9
+[submodule "arch-one-dark"]
+	path = arch-one-dark
+	url = https://github.com/jamesbaker1901/leftwm-arch-one-dark/
