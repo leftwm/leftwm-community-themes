@@ -141,6 +141,13 @@ version = "0.0.1"
 leftwm_versions = "<0.3.0"
 
 [[theme]]
+name = "Serika"
+repository = "https://github.com/VuiMuich/leftwm-theme-serika.git"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+
+[[theme]]
 name = "Soothe"
 repository = "https://github.com/b4skyx/leftwm-soothe/"
 commit = "*"

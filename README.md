@@ -102,6 +102,11 @@ Screenshots of the themes currently available:
 
 ![Red Moon](.screenshots/rm.png)
 
+### Serika
+
+![Serika-1](.screenshots/serika_1.png)
+![Serika-2](.screenshots/serika_2.png)
+
 ### Soothe
 
 ![Soothe](.screenshots/soothe.png)
