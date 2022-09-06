@@ -157,7 +157,7 @@ leftwm_versions = "^0.3.0"
 
 [[theme]]
 name = "SpaceJelly"
-repository = "https://gitlab.com/jchand99/space_jelly"
+repository = "https://gitlab.com/leftwmthemes/space_jelly"
 commit = "*"
 version = "1.0.0"
 leftwm_versions = ">0.2.10, <0.3.0"
