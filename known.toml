@@ -1,11 +1,46 @@
 definitions_version = 1
 
 [[theme]]
-name = "Orange Forest"
-repository = "https://github.com/PVautour/leftwm-theme-orange-forest/"
+name = "Amber"
+repository = "https://github.com/di-effe/amber"
 commit = "*"
-version = "0.0.2"
+version = "0.2.2"
+leftwm_versions = ">0.2.10, <0.3.0"
+
+[[theme]]
+name = "arch-one-dark"
+repository = "https://github.com/jamesbaker1901/leftwm-arch-one-dark/"
+commit = "*"
+version = "1.0.0"
 leftwm_versions = "^0.3.0"
+
+[[theme]]
+name = "Ascent"
+repository = "https://gitlab.com/mWalrus/ascent"
+commit = "*"
+version = "1.0.0"
+leftwm_versions = ">0.2.7"
+
+[[theme]]
+name = "Blue Coffee"
+repository = "https://github.com/Qwart376/Blue-Coffee/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+
+[[theme]]
+name = "Bumblebee"
+repository = "https://github.com/mfdorst/leftwm-bumblebee/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "^0.2.8, <0.3.0"
+
+[[theme]]
+name = "Catppuccin"
+repository = "https://github.com/di-effe/catppuccin"
+commit = "*"
+version = "0.1.1"
+leftwm_versions = ">0.2.10, <0.3.0"
 
 [[theme]]
 name = "Coffee"
@@ -15,10 +50,122 @@ version = "0.0.1"
 leftwm_versions = "<0.3.0"
 
 [[theme]]
+name = "Double Bar"
+repository = "https://github.com/PeterDauwe/doublebar/"
+commit = "*"
+version = "0.0.2"
+leftwm_versions = "^0.3.0"
+
+[[theme]]
+name = "Dracula Rounded"
+repository = "https://github.com/AethanFoot/leftwm-theme-dracula-rounded/"
+commit = "*"
+version = "0.0.3"
+leftwm_versions = "^0.3.0"
+
+[[theme]]
+name = "Epitaph"
+repository = "https://github.com/VentGrey/Epitaph"
+commit = "*"
+version = "0.0.2"
+leftwm_versions = "*"
+
+[[theme]]
+name = "Flamingo"
+repository = "https://github.com/necaris/leftwm-theme-flamingo"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = ">0.2.7, <0.3.0"
+
+[[theme]]
+name = "Forest"
+repository = "https://github.com/lex148/forest/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "^0.3.0"
+
+[[theme]]
+name = "Garden"
+repository = "https://github.com/taylor85345/leftwm-theme-garden"
+commit = "*"
+version = "0.0.4"
+leftwm_versions = ">0.2.7"
+
+[[theme]]
+name = "Ground Zero"
+repository = "https://github.com/Qwart376/Ground-Zero/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+
+[[theme]]
+name = "minimal-solarized"
+repository = "https://github.com/minda1975/minimal_solarized"
+commit = "*"
+version = "0.1.0"
+leftwm_versions = "^0.3.0"
+
+[[theme]]
+name = "Molese"
+repository = "https://github.com/m0lese/leftwm-config"
+commit = "*"
+version = "2.1.0"
+leftwm_versions = ">0.2.10, <0.3.0"
+
+[[theme]]
+name = "Ocean-night"
+repository = "https://github.com/TheRoniOne/ocean-night"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
+
+[[theme]]
+name = "Orange Forest"
+repository = "https://github.com/PVautour/leftwm-theme-orange-forest/"
+commit = "*"
+version = "0.0.2"
+leftwm_versions = "^0.3.0"
+
+[[theme]]
+name = "plan9"
+repository = "https://github.com/seabassapologist/leftwm-theme-plan9"
+commit = "*"
+version = "0.1.0"
+leftwm_versions = "^0.3.0"
+
+[[theme]]
+name = "Red Moon"
+repository = "https://github.com/Qwart376/Red-Moon"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+
+[[theme]]
 name = "Soothe"
 repository = "https://github.com/b4skyx/leftwm-soothe/"
 commit = "*"
 relative_directory = "theme/"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+
+[[theme]]
+name = "SpaceJelly"
+repository = "https://gitlab.com/leftwmthemes/space_jelly"
+commit = "*"
+version = "1.0.0"
+leftwm_versions = ">0.2.10, <0.3.0"
+
+[[theme]]
+name = "sunflower"
+repository = "https://github.com/mautamu/leftwm-sunflower/"
+commit = "*"
+version = "0.1.2"
+leftwm_versions = "^0.2.11, <0.3.0"
+
+[[theme]]
+name = "Sunset"
+repository = "https://github.com/Syudagye/leftwm-sunset"
+commit = "*"
 version = "0.0.1"
 leftwm_versions = "<0.3.0"
 
@@ -37,155 +184,9 @@ version = "0.0.1"
 leftwm_versions = "<0.3.0"
 
 [[theme]]
-name = "Dracula Rounded"
-repository = "https://github.com/AethanFoot/leftwm-theme-dracula-rounded/"
-commit = "*"
-version = "0.0.3"
-leftwm_versions = "^0.3.0"
-
-[[theme]]
-name = "Forest"
-repository = "https://github.com/lex148/forest/"
-commit = "*"
-version = "0.0.1"
-leftwm_versions = "^0.3.0"
-
-[[theme]]
-name = "arch-one-dark"
-repository = "https://github.com/jamesbaker1901/leftwm-arch-one-dark/"
-commit = "*"
-version = "1.0.0"
-leftwm_versions = "^0.3.0"
-
-[[theme]]
-name = "Ground Zero"
-repository = "https://github.com/Qwart376/Ground-Zero/"
-commit = "*"
-version = "0.0.1"
-leftwm_versions = "<0.3.0"
-
-[[theme]]
-name = "Red Moon"
-repository = "https://github.com/Qwart376/Red-Moon"
-commit = "*"
-version = "0.0.1"
-leftwm_versions = "<0.3.0"
-
-[[theme]]
-name = "Blue Coffee"
-repository = "https://github.com/Qwart376/Blue-Coffee/"
-commit = "*"
-version = "0.0.1"
-leftwm_versions = "<0.3.0"
-
-[[theme]]
-name = "sunflower"
-repository = "https://github.com/mautamu/leftwm-sunflower/"
-commit = "*"
-version = "0.1.2"
-leftwm_versions = "^0.2.11, <0.3.0"
-
-[[theme]]
-name = "Bumblebee"
-repository = "https://github.com/mfdorst/leftwm-bumblebee/"
-commit = "*"
-version = "0.0.1"
-leftwm_versions = "^0.2.8, <0.3.0"
-
-[[theme]]
-name = "Sunset"
-repository = "https://github.com/Syudagye/leftwm-sunset"
-commit = "*"
-version = "0.0.1"
-leftwm_versions = "<0.3.0"
-
-[[theme]]
-name = "Garden"
-repository = "https://github.com/taylor85345/leftwm-theme-garden"
-commit = "*"
-version = "0.0.4"
-leftwm_versions = ">0.2.7"
-
-[[theme]]
-name = "Epitaph"
-repository = "https://github.com/VentGrey/Epitaph"
-commit = "*"
-version = "0.0.2"
-leftwm_versions = "*"
-
-[[theme]]
-name = "Ocean-night"
-repository = "https://github.com/TheRoniOne/ocean-night"
-commit = "*"
-version = "0.0.1"
-leftwm_versions = "*"
-
-[[theme]]
-name = "Flamingo"
-repository = "https://github.com/necaris/leftwm-theme-flamingo"
-commit = "*"
-version = "0.0.1"
-leftwm_versions = ">0.2.7, <0.3.0"
-
-[[theme]]
-name = "Amber"
-repository = "https://github.com/di-effe/amber"
-commit = "*"
-version = "0.2.2"
-leftwm_versions = ">0.2.10, <0.3.0"
-
-[[theme]]
-name = "Catppuccin"
-repository = "https://github.com/di-effe/catppuccin"
-commit = "*"
-version = "0.1.1"
-leftwm_versions = ">0.2.10, <0.3.0"
-
-[[theme]]
-name = "Molese"
-repository = "https://github.com/m0lese/leftwm-config"
-commit = "*"
-version = "2.1.0"
-leftwm_versions = ">0.2.10, <0.3.0"
-
-[[theme]]
-name = "Double Bar"
-repository = "https://github.com/PeterDauwe/doublebar/"
-commit = "*"
-version = "0.0.2"
-leftwm_versions = "^0.3.0"
-
-[[theme]]
-name = "SpaceJelly"
-repository = "https://gitlab.com/leftwmthemes/space_jelly"
-commit = "*"
-version = "1.0.0"
-leftwm_versions = ">0.2.10, <0.3.0"
-
-[[theme]]
-name = "Ascent"
-repository = "https://gitlab.com/mWalrus/ascent"
-commit = "*"
-version = "1.0.0"
-leftwm_versions = ">0.2.7"
-
-[[theme]]
 name = "Zexanima"
 repository = "https://github.com/calebgasser/zexanima-leftwm-theme/tree/develop"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = ">0.3.0"
 
-[[theme]]
-name = "minimal-solarized"
-repository = "https://github.com/minda1975/minimal_solarized"
-commit = "*"
-version = "0.1.0"
-leftwm_versions = "^0.3.0"
-
-[[theme]]
-name = "plan9"
-repository = "https://github.com/seabassapologist/leftwm-theme-plan9"
-commit = "*"
-version = "0.1.0"
-leftwm_versions = "^0.3.0"
