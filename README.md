@@ -47,7 +47,7 @@ Screenshots of the themes currently available:
 
 ### Doublebar
 
-![Doublebar](doublebar/doublebar.png)
+![Doublebar](.screenshots/doublebar.png)
 
 ### Dracula
 
@@ -59,8 +59,8 @@ Screenshots of the themes currently available:
 
 ### Flamingo
 
-![Flamingo](Flamingo/screenshots/desktop.png)
-![Flamingo](Flamingo/screenshots/busy.png)
+![Flamingo](.screenshots/flamingo_desktop.png)
+![Flamingo](.screenshots/flamingo_busy.png)
 
 ### Forest
 
@@ -76,7 +76,7 @@ Screenshots of the themes currently available:
 
 ### Minimal Solarized
 
-![Minimal Solarized](minimal_solarized/1.png)
+![Minimal Solarized](.screenshots/minimal_solarized.png)
 
 ### Molese
 
@@ -87,8 +87,8 @@ Screenshots of the themes currently available:
 
 ### Ocean Night
 
-![Ocean-Night-1](ocean-night/screenshots/ocean-night1.JPG)
-![Ocean-Night-2](ocean-night/screenshots/ocean-night2.JPG)
+![Ocean-Night-1](.screenshots/ocean-night1.JPG)
+![Ocean-Night-2](.screenshots/ocean-night2.JPG)
 
 ### Orange Forest
 
