@@ -84,3 +84,6 @@
 [submodule "zexanima-leftwm-theme"]
 	path = zexanima-leftwm-theme
 	url = https://github.com/calebgasser/zexanima-leftwm-theme.git
+[submodule "leftwm-arch-one-dark"]
+	path = leftwm-arch-one-dark
+	url = https://github.com/jamesbaker1901/leftwm-arch-one-dark/

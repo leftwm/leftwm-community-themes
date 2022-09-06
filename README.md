@@ -16,24 +16,51 @@ In addition to the standard guidelines for themes we ask that you also include a
 
 Screenshots of the themes currently available:
 
+### Amber
+
+![Amber](.screenshots/amber.png)
+
 ### arch-one-dark
-![arch-one-dark](screenshots/arch-one-dark.png)
+
+![arch-one-dark](.screenshots/arch-one-dark.png)
+
+### Ascent
+
+![Ascent-0](.screenshots/ascent-0.png)
+![Ascent-1](.screenshots/ascent-1.png)
 
 ### Blue Coffee
 
-![Blue Coffee](screenshots/bc.png)
+![Blue Coffee](.screenshots/bc.png)
+
+### Bumblebee
+
+![Bumblebee](.screenshots/Bumblebee.png)
+
+### Catppuccin
+
+![Catppuccin](.screenshots/catppuccin.png)
 
 ### Coffee
 
-![Coffee](screenshots/Coffee.jpg)
+![Coffee](.screenshots/Coffee.jpg)
+
+### Doublebar
+
+![Doublebar](doublebar/doublebar.png)
 
 ### Dracula
 
-![Dracula](screenshots/dracula.png)
+![Dracula](.screenshots/dracula.png)
 
 ### Epitaph
 
-![Epitaph](screenshots/Epitaph.png)
+![Epitaph](.screenshots/Epitaph.png)
+
+### Flamingo
+
+![Flamingo](Flamingo/screenshots/desktop.png)
+![Flamingo](Flamingo/screenshots/busy.png)
 
 ### Forest
 
@@ -41,74 +68,66 @@ Screenshots of the themes currently available:
 
 ### Garden
 
-![Ground Zero](screenshots/garden.png)
+![Ground Zero](.screenshots/garden.png)
 
 ### Ground Zero
 
-![Ground Zero](screenshots/gz.png)
+![Ground Zero](.screenshots/gz.png)
 
-### Orange
+### Minimal Solarized
 
-![Orange](screenshots/orange.png)
+![Minimal Solarized](minimal_solarized/1.png)
+
+### Molese
+
+![Molese-0](.screenshots/molese-0.png)
+![Molese-1](.screenshots/molese-1.png)
+![Molese-2](.screenshots/molese-2.png)
+![Molese-3](.screenshots/molese-3.png)
+
+### Ocean Night
+
+![Ocean-Night-1](ocean-night/screenshots/ocean-night1.JPG)
+![Ocean-Night-2](ocean-night/screenshots/ocean-night2.JPG)
+
+### Orange Forest
+
+![Orange Forest](.screenshots/orange.png)
 
 ### Plan9
 
-![Plan9](screenshots/plan9.png)
+![Plan9](.screenshots/plan9.png)
 
 ### Red Moon
 
-![Red Moon](screenshots/rm.png)
+![Red Moon](.screenshots/rm.png)
 
 ### Soothe
 
-![Soothe](screenshots/soothe.png)
+![Soothe](.screenshots/soothe.png)
+
+### SpaceJelly
+
+![SpaceJelly](.screenshots/SpaceJelly.png)
 
 ### Sunflower
 
-![Sunflower](screenshots/Sunflower.png)
-
-### TNG
-
-![TNG](screenshots/tng.jpg)
-
-### Windows XP
-
-![Windows XP](screenshots/xp.png)
-
-### Bumblebee
-
-![Bumblebee](screenshots/Bumblebee.png)
+![Sunflower](.screenshots/Sunflower.png)
 
 ### Sunset
 
 ![Sunset](https://raw.githubusercontent.com/Syudagye/leftwm-sunset/master/screenshots/filled.png)
 
-### Amber
+### TNG
 
-![Amber](screenshots/amber.png)
+![TNG](.screenshots/tng.jpg)
 
-### Catppuccin
+### Windows XP
 
-![Catppuccin](screenshots/catppuccin.png)
-
-### Molese
-
-![Molese-0](screenshots/molese-0.png)
-![Molese-1](screenshots/molese-1.png)
-![Molese-2](screenshots/molese-2.png)
-![Molese-3](screenshots/molese-3.png)
-
-### SpaceJelly
-
-![SpaceJelly](screenshots/SpaceJelly.png)
-
-### Ascent
-
-![Ascent-0](screenshots/ascent-0.png)
-![Ascent-1](screenshots/ascent-1.png)
+![Windows XP](.screenshots/xp.png)
 
 ### Zexanima
-![Zexanima](screenshots/zexanima-theme-screenshot.png)
+![Zexanima](.screenshots/zexanima-theme-screenshot.png)
 
 ## LICENSE
 
