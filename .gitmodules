@@ -1,9 +1,6 @@
 [submodule "amber"]
 	path = amber
 	url = https://github.com/di-effe/amber
-[submodule "arch-one-dark"]
-	path = arch-one-dark
-	url = https://github.com/jamesbaker1901/leftwm-arch-one-dark/
 [submodule "ascent"]
 	path = ascent
 	url = https://gitlab.com/mWalrus/ascent
@@ -42,12 +39,18 @@
 [submodule "leftwm-sunflower"]
 	path = leftwm-sunflower
 	url = https://github.com/mautamu/leftwm-sunflower/
+[submodule "leftwm-arch-one-dark"]
+	path = leftwm-arch-one-dark
+	url = https://github.com/jamesbaker1901/leftwm-arch-one-dark/
 [submodule "leftwm-theme-garden"]
 	path = leftwm-theme-garden
 	url = https://github.com/taylor85345/leftwm-theme-garden
 [submodule "leftwm-theme-plan9"]
 	path = leftwm-theme-plan9
 	url = https://github.com/seabassapologist/leftwm-theme-plan9
+[submodule "leftwm-theme-serika"]
+	path = leftwm-theme-serika
+	url = https://github.com/VuiMuich/leftwm-theme-serika.git
 [submodule "minimal_solarized"]
 	path = minimal_solarized
 	url = https://github.com/minda1975/minimal_solarized
@@ -84,6 +87,3 @@
 [submodule "zexanima-leftwm-theme"]
 	path = zexanima-leftwm-theme
 	url = https://github.com/calebgasser/zexanima-leftwm-theme.git
-[submodule "leftwm-arch-one-dark"]
-	path = leftwm-arch-one-dark
-	url = https://github.com/jamesbaker1901/leftwm-arch-one-dark/
