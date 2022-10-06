@@ -45,6 +45,9 @@ Screenshots of the themes currently available:
 
 ![Coffee](.screenshots/Coffee.jpg)
 
+### Desire
+![Desire](https://github.com/copypasteonly/Desire/blob/master/preview.png)
+
 ### Doublebar
 
 ![Doublebar](.screenshots/doublebar.png)
