@@ -204,3 +204,5 @@ repository = "https://github.com/zawesomekid/Blood-Moon-leftwm-theme"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = ">0.3.0"
+
+git submodule add https://github.com/zawesomekid/Blood-Moon-leftwm-theme
