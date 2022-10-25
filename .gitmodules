@@ -90,3 +90,6 @@
 [submodule "zexanima-leftwm-theme"]
 	path = zexanima-leftwm-theme
 	url = https://github.com/calebgasser/zexanima-leftwm-theme.git
+[submodule "Blood-Moon-leftwm-theme"]
+	path = Blood-Moon-leftwm-theme
+	url = https://github.com/zawesomekid/Blood-Moon-leftwm-theme
