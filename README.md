@@ -134,6 +134,11 @@ Screenshots of the themes currently available:
 ### Zexanima
 ![Zexanima](.screenshots/zexanima-theme-screenshot.png)
 
+### Blood Moon 
+![Leftwm_1](https://user-images.githubusercontent.com/116481678/197885831-743998ed-7df7-4a7a-bbde-9ed4c5ef3a1e.png)
+![Leftwm_2](https://user-images.githubusercontent.com/116481678/197885834-e21cc9ad-9c31-4b53-bf99-62048af33587.png)
+
+
 ## LICENSE
 
 This project is licensed under the BSD 3-Clause License.
