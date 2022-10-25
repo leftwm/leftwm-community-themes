@@ -17,6 +17,9 @@
 	path = coffee
 	url = https://github.com/lex148/leftwm-coffee.git
 	branch = master
+[submodule "desire"]
+    path =  desire
+    url = https://github.com/copypasteonly/Desire
 [submodule "doublebar"]
 	path = doublebar
 	url = https://github.com/PeterDauwe/doublebar/

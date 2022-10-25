@@ -50,6 +50,13 @@ version = "0.0.1"
 leftwm_versions = "<0.3.0"
 
 [[theme]]
+name = "Desire"
+repository = "https://github.com/copypasteonly/Desire"
+commit = "*"
+version = "0.1"
+leftwm_versions = "^0.4.0"
+
+[[theme]]
 name = "Double Bar"
 repository = "https://github.com/PeterDauwe/doublebar/"
 commit = "*"
