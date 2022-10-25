@@ -197,3 +197,10 @@ commit = "*"
 version = "0.0.1"
 leftwm_versions = ">0.3.0"
 
+
+[[theme]]
+name = "Blood-Moon"
+repository = "https://github.com/zawesomekid/Blood-Moon-leftwm-theme"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = ">0.3.0"
