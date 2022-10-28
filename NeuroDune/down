@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "$0")" || { printf "error cd to dir in down script..exit 1" &> /tmp/leftwm.log; exit 1 ; }
+SCRIPTPATH="$(pwd -P)"
+export SCRIPTPATH
+
+down_theme() {
+#set background to blank image
+if type -P feh &>/dev/null; then 
+    feh --bg-fill "$SCRIPTPATH"/down.jpg 
+  else
+    printf "feh command not found.exit 1\n" &> /tmp/leftwm.log
+    exit 1
+fi
+# unload theme with leftwm-command	
+  leftwm-command "UnloadTheme" || { printf "error unloading theme with leftwm-command ..exit 1" &> /tmp/leftwm.log; exit 1 ; }
+# kill theme-triggered processes
+if pgrep -i picom &>/dev/null; then pkill picom; fi
+if pgrep -i polybar &>/dev/null; then pkill polybar; fi
+}
+down_theme
+exit 0
