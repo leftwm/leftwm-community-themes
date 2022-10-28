@@ -1,0 +1,17 @@
+#!/bin/bash
+
+diskused() {
+  local dfhome="$(df -alh /home | tail -1 | awk -F" " '{ print $5 }')"
+  local dfroot="$(df -alh / 2>/dev/null | tail -1 | awk -F" " '{ print $5 }')"  
+  echo " [/:$dfroot ~/:$dfhome]" || { echo "Error outputing filesystem to status bar...exiting status 1"; exit 1; }
+}
+main() {
+  while : 
+  do
+      diskused
+      sleep 240
+  done 	  
+}
+main 
+exit 0
+

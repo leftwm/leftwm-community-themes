@@ -1,0 +1,8 @@
+border_width = 2
+margin = [ 5, 2, 5, 2 ]
+#default_border_color = "#0f161e"  ;black
+#default_border_color = "#600080"  ;purple
+default_border_color = "#e63900"
+floating_border_color = "#00fb94"
+focused_border_color = "#2e5691"
+
