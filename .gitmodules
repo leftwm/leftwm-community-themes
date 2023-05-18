@@ -93,3 +93,6 @@
 [submodule "Blood-Moon-leftwm-theme"]
 	path = Blood-Moon-leftwm-theme
 	url = https://github.com/zawesomekid/Blood-Moon-leftwm-theme
+[submodule "LateNight"]
+	path = LateNight
+	url = https://github.com/JacoMalan1/LateNight

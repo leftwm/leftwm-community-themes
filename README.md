@@ -81,6 +81,10 @@ Screenshots of the themes currently available:
 
 ![Ground Zero](.screenshots/gz.png)
 
+### Late Night
+
+![Late Night](.screenshots/late_night.png)
+
 ### Minimal Solarized
 
 ![Minimal Solarized](.screenshots/minimal_solarized.png)
