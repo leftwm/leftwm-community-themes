@@ -52,6 +52,11 @@ Screenshots of the themes currently available:
 ### Desire
 ![Desire](https://github.com/copypasteonly/Desire/blob/master/preview.png)
 
+### Dementive
+
+![Dementive](.screenshots/dementive-0.png)
+![Dementive2](.screenshots/dementive-1.png)
+
 ### Doublebar
 
 ![Doublebar](.screenshots/doublebar.png)
@@ -60,9 +65,6 @@ Screenshots of the themes currently available:
 
 ![Dracula](.screenshots/dracula.png)
 
-### Dementive
-![Dementive](.screenshots/dementive-0.png)
-![Dementive2](.screenshots/dementive-1.png)
 
 ### Epitaph
 
