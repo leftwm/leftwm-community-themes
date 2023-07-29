@@ -60,6 +60,10 @@ Screenshots of the themes currently available:
 
 ![Dracula](.screenshots/dracula.png)
 
+### Dementive
+![Dementive](.screenshots/dementive-0.png)
+![Dementive2](.screenshots/dementive-1.png)
+
 ### Epitaph
 
 ![Epitaph](.screenshots/Epitaph.png)
