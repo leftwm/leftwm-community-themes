@@ -217,3 +217,10 @@ repository = "https://github.com/zawesomekid/Blood-Moon-leftwm-theme"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = ">0.3.0"
+
+[[theme]]
+name = "Late-Night"
+repository = "https://github.com/JacoMalan1/LateNight"
+commit = "*"
+version = "0.0.2"
+leftwm_versions = ">0.3.0"
