@@ -49,6 +49,11 @@ Screenshots of the themes currently available:
 
 ![Coffee](.screenshots/Coffee.jpg)
 
+### Dementive
+
+![Dementive](.screenshots/dementive-0.png)
+![Dementive2](.screenshots/dementive-1.png)
+
 ### Desire
 ![Desire](https://github.com/copypasteonly/Desire/blob/master/preview.png)
 
