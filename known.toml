@@ -22,13 +22,6 @@ version = "1.0.0"
 leftwm_versions = ">0.2.7"
 
 [[theme]]
-name = "Blue Coffee"
-repository = "https://github.com/Qwart376/Blue-Coffee/"
-commit = "*"
-version = "0.0.1"
-leftwm_versions = "<0.3.0"
-
-[[theme]]
 name = "Bumblebee"
 repository = "https://github.com/mfdorst/leftwm-bumblebee/"
 commit = "*"
@@ -106,13 +99,6 @@ version = "0.0.4"
 leftwm_versions = ">0.2.7"
 
 [[theme]]
-name = "Ground Zero"
-repository = "https://github.com/Qwart376/Ground-Zero/"
-commit = "*"
-version = "0.0.1"
-leftwm_versions = "<0.3.0"
-
-[[theme]]
 name = "minimal-solarized"
 repository = "https://github.com/minda1975/minimal_solarized"
 commit = "*"
@@ -148,13 +134,6 @@ version = "0.1.0"
 leftwm_versions = "^0.3.0"
 
 [[theme]]
-name = "Red Moon"
-repository = "https://github.com/Qwart376/Red-Moon"
-commit = "*"
-version = "0.0.1"
-leftwm_versions = "<0.3.0"
-
-[[theme]]
 name = "Serika"
 repository = "https://github.com/VuiMuich/leftwm-theme-serika.git"
 commit = "*"
@@ -168,13 +147,6 @@ commit = "*"
 relative_directory = "theme/"
 version = "0.0.1"
 leftwm_versions = "<0.3.0"
-
-[[theme]]
-name = "SpaceJelly"
-repository = "https://gitlab.com/leftwmthemes/space_jelly"
-commit = "*"
-version = "1.0.0"
-leftwm_versions = ">0.2.10, <0.3.0"
 
 [[theme]]
 name = "sunflower"
