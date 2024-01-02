@@ -1,0 +1,79 @@
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  CONFIG_DIR: ~/.config/leftwm
+  CONFIG_FILENAME: themes.toml
+  RUST_TOOLCHAIN: stable
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow is a basic sanity check to make sure all the submodules exist
+  test-submodules:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+
+  # This workflow tests the known.toml file against the latest leftwm-theme
+  test-leftwm-theme:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+        with:
+          repository: leftwm/leftwm-theme
+          ref: master
+
+      - name: "Install Rust"
+        run: |
+          rustup toolchain install ${{ env.RUST_TOOLCHAIN }} --profile minimal --no-self-update
+          rustup default ${{ env.RUST_TOOLCHAIN }}
+        shell: bash      
+
+      - name: Cache Dependencies
+        uses: Swatinem/rust-cache@v2.7.0
+
+      - name: Build/install leftwm-theme
+        run: |
+          cargo build --release
+          ./target/release/leftwm-theme --version
+
+      # TODO: I'm unclear on how themes.toml is supposed to work
+      # - name: Setup this branch in themes.toml
+      #   run: |
+      #     echo "TODO: Configure known.toml"
+      #     mkdir -p ${CONFIG_DIR}
+      #     echo EOF>>
+      #     [[repos]]
+      #     url = "${{github.context.serverUrl}}/${{github.context.repo.owner}}/${{github.context.repo.repo}}#
+      #     name = "leftwm-community-themes"
+      #     themes = []
+      #     EOF >>  ${CONFIG_DIR}/${CONFIG_FILENAME}
+
+      # TODO: Figure out why there are no Available Themes
+      # - name: Attempt installing all supported themes
+      #   run: |
+      #     # Run once with verbose output for debugging
+      #     ./target/release/leftwm-theme -vvv update
+      #     # Run again to capture output
+      #     ./target/release/leftwm-theme update | grep community | cut -d '/' -f2 | cut -d ':' -f1 > themes
+      #     xargs -n 1 echo ./target/release/leftwm-theme install < themes

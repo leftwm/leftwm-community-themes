@@ -4,9 +4,6 @@
 [submodule "ascent"]
 	path = ascent
 	url = https://gitlab.com/mWalrus/ascent
-[submodule "Blue Coffee"]
-	path = Blue Coffee
-	url = https://github.com/Qwart376/Blue-Coffee
 [submodule "Bumblebee"]
 	path = Bumblebee
 	url = https://github.com/mfdorst/leftwm-bumblebee/
@@ -39,9 +36,6 @@
 	path = forest
 	url = https://github.com/lex148/forest.git
 	branch = master
-[submodule "Ground Zero"]
-	path = Ground Zero
-	url = https://github.com/Qwart376/Ground-Zero
 [submodule "leftwm-sunflower"]
 	path = leftwm-sunflower
 	url = https://github.com/mautamu/leftwm-sunflower/
@@ -69,16 +63,10 @@
 [submodule "orangeforest"]
 	path = orangeforest
 	url = https://github.com/PVautour/leftwm-theme-orange-forest.git
-[submodule "Red Moon"]
-	path = Red Moon
-	url = https://github.com/Qwart376/Red-Moon
 [submodule "soothe"]
 	path = soothe
 	url = https://github.com/b4skyx/leftwm-soothe.git
 	branch = master
-[submodule "space_jelly"]
-	path = space_jelly
-	url = https://gitlab.com/leftwmthemes/space_jelly
 [submodule "Sunset"]
 	path = Sunset
 	url = https://github.com/Syudagye/leftwm-sunset
