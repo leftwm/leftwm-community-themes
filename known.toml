@@ -206,7 +206,7 @@ leftwm_versions = "<0.3.0"
 
 [[theme]]
 name = "Zexanima"
-repository = "https://github.com/calebgasser/zexanima-leftwm-theme/tree/develop"
+repository = "https://github.com/calebgasser/zexanima-leftwm-theme/"
 commit = "*"
 version = "0.0.1"
 leftwm_versions = ">0.3.0"
